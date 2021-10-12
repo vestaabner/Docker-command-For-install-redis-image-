@@ -115,3 +115,7 @@ Using Docker commit to create images
     or
     docker commit -m="A new custom image" --author="DV Suresh" \
     6b84282435f8 dvdoc/apache2:webserver
+============================================================
+ 
+ 
+ docker run -p 6379:6379/tcp -d redis:latest
